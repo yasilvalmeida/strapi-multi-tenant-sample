@@ -40,9 +40,6 @@
     },
     "author": {
       "type": "string"
-    },
-    "published_at": {
-      "type": "datetime"
     }
   }
 }

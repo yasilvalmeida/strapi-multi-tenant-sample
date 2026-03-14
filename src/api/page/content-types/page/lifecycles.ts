@@ -38,30 +38,6 @@ export default {
       entry: result,
     });
   },
-
-  async afterPublish(event) {
-    const { result } = event;
-
-    // Trigger webhook after page publish
-    await triggerWebhook({
-      tenant_id: result.tenant_id,
-      content_type: 'api::page.page',
-      action: 'publish',
-      entry: result,
-    });
-  },
-
-  async afterUnpublish(event) {
-    const { result } = event;
-
-    // Trigger webhook after page unpublish
-    await triggerWebhook({
-      tenant_id: result.tenant_id,
-      content_type: 'api::page.page',
-      action: 'unpublish',
-      entry: result,
-    });
-  },
 };
 
 // Helper function to trigger webhooks

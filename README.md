@@ -4,6 +4,30 @@ A production-ready multi-tenancy implementation for Strapi v5, enabling secure m
 
 ---
 
+## Screenshots
+
+### Admin Dashboard
+![Strapi Admin Dashboard](docs/screenshots/admin-dashboard.png)
+*Multi-tenant admin panel with content type management and user roles*
+
+### Content Manager
+![Content Manager](docs/screenshots/content-manager.png)
+*Article collection with tenant-scoped entries and inline editing*
+
+### Content Type Builder
+![Content Type Builder](docs/screenshots/content-type-builder.png)
+*Content type schema showing tenant_id field for data isolation*
+
+### API Configuration
+![API Configuration](docs/screenshots/api-configuration.png)
+*REST API permissions and endpoint configuration per content type*
+
+### Tenant Structure
+![Tenant Structure](docs/screenshots/tenant-structure.png)
+*Tenant data isolation — filtered content entries per tenant_id*
+
+---
+
 ## 1. Project Overview
 
 ### The Problem
